@@ -1,5 +1,9 @@
-# Support Victory Machines CIL2021 Project 3
-Stefan Jokic, Yan Walesch, Thomas Zhou
+# ROAD SEGMENTATION IN AERIAL IMAGES
+[_Stefan Jokić_](https://github.com/sjokic), Yan Walesch, [_Thomas Zhou_](https://github.com/thomastzhou)
+
+Project as part of the Computational Intellgience lab course in 2021 at ETH. The project report can be found in `CIL_Report.pdf`.
+
+**NOTE:** The training and test images which are supposed to be inside the `test_images` and `training` directories are not included.
 
 ## 1. Setup
 ### Dependencies
@@ -25,7 +29,7 @@ For our **best model**, we ran the following:
 
 This will require pre-trained weights. See **section 3**. 
 
-**NOTE:** For convenience, we've uploaded the weight files for the best model (`model-best.ckpt`) and pretrained weights (`model-pretrained-weights.ckpt`) for `lanet` at https://polybox.ethz.ch/index.php/s/I7ZH05H0lZRyIkA. 
+**NOTE:** For convenience, we've uploaded the weight files for the best model (`model-best.ckpt`) and pretrained weights (`model-pretrained-weights.ckpt`) for `lanet` [here](https://polybox.ethz.ch/index.php/s/I7ZH05H0lZRyIkA). 
 
 Outputs log to local directory `logs_training/`. Access training loss and validation score using tensorboard: `tensorboard --logdir logs_training`. Resulting model weights from training will be saved under `logs_training/MODEL_NAME/version_X/checkpoints/*.ckpt`.
 
