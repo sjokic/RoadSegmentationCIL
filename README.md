@@ -12,10 +12,6 @@ Install all required packages via `pip install -r requirements.txt`. You may als
 
 **IMPORTANT:** If you are encountering issues with importing PyTorch Lightning on the ETH cluster, run `python -m venv env_name` followed by `source env_name/bin/activate` first before installing the packages specified in `requirements.txt`. The issue is that the python module of the cluster may already include several packages that are conflicting with the installation of PyTorch Lightning.
 
-### Kaggle Data
-Download the .zip from the [Kaggle](https://www.kaggle.com/c/cil-road-segmentation-2021) and unzip in the root directory.
-Feel free to remove the `mask_to_submission.py` and `submission_to_mask.py` as there's a copy of them in the `utils` directory.
-
 ## 2. Training
 Run the following command to train a model from scratch with default parameters:
 
