@@ -1,9 +1,9 @@
 # ROAD SEGMENTATION IN AERIAL IMAGES
-[_Stefan Jokić_](https://github.com/sjokic), Yan Walesch, [_Thomas Zhou_](https://github.com/thomastzhou)
+[_Stefan Jokić_](https://github.com/sjokic), _Yan Walesch_, [_Thomas Zhou_](https://github.com/thomastzhou)
 
 Project as part of the Computational Intellgience lab course in 2021 at ETH. The project report can be found in `CIL_Report.pdf`.
 
-**NOTE:** The training and test images which are supposed to be inside the `test_images` and `training` directories are not included.
+**NOTE:** The training and test images which are supposed to be inside the `test_images` and `training` directories are not included. We do not have permission to share the data set. The images we used for the training set had a size of 400x400, whereas the images in the test set had a size of 608x608. 
 
 ## 1. Setup
 ### Dependencies
